@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/javie/Desktop/2 DAM/DI/TEMA_1/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas
+-cmake-output
+-output-file
+C:/Users/javie/Desktop/2 DAM/DI/TEMA_1/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/qml_imports/appEjercicioPosicion_build.cmake
+-importPath
+C:/Users/javie/Desktop/2 DAM/DI/TEMA_1/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/EjercicioPosicion
+-importPath
+C:/Users/javie/Desktop/2 DAM/DI/TEMA_1/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.8.0/mingw_64/qml
+-qrcFiles
+C:/Users/javie/Desktop/2 DAM/DI/TEMA_1/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/qmake_EjercicioPosicion.qrc
+C:/Users/javie/Desktop/2 DAM/DI/TEMA_1/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/.qt/rcc/appEjercicioPosicion_raw_qml_0.qrc

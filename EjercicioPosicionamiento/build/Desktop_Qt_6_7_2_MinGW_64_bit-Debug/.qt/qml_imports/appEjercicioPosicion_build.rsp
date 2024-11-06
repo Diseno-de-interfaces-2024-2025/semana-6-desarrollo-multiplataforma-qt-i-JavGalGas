@@ -1,0 +1,14 @@
+-rootPath
+D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion
+-cmake-output
+-output-file
+D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/qml_imports/appEjercicioPosicion_build.cmake
+-importPath
+D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjercicioPosicion
+-importPath
+D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.7.2/mingw_64/./qml
+-qrcFiles
+D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_EjercicioPosicion.qrc
+D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appEjercicioPosicion_raw_qml_0.qrc
