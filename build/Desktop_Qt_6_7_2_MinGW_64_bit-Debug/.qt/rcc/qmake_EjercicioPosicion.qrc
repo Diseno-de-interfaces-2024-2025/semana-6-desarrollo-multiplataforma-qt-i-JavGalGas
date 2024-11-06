@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/EjercicioPosicion">
-    <file alias="qmldir">D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjercicioPosicion/qmldir</file>
-  </qresource>
-</RCC>
-
