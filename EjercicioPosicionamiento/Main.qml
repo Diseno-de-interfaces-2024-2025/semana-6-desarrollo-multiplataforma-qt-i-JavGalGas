@@ -90,7 +90,6 @@ Window {
         anchors.fill: parent
         anchors.leftMargin: 160
         Item {
-
             Rectangle {
                 color: "#eeeeee"
                 anchors.fill: parent

@@ -15,7 +15,6 @@ Window {
         anchors.top: parent.top
         anchors.left: parent.left
         anchors.bottom: parent.bottom
-        anchors.verticalCenter: parent.verticalCenter
         Button {
             text: "Elementos"
             Layout.alignment: Qt.AlignHCenter | Qt.AlignBaseline
@@ -90,14 +89,20 @@ Window {
         id: stack
         anchors.fill: parent
         anchors.leftMargin: 160
-        anchors.rightMargin: 20
-        anchors.bottomMargin: 20
         Item {
+            Rectangle {
+                color: "#eeeeee"
+                anchors.fill: parent
+            }
+
             Text{
                 id: title
                 Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
                 text: "Elementos"
-                font.pointSize: 36
+                font.pointSize: 24
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.top: parent.top
+                anchors.topMargin: 20
             }
 
             GridLayout {
@@ -107,12 +112,13 @@ Window {
                 rowSpacing: 10
                 anchors.fill: parent
                 anchors.right: parent.right
-                anchors.topMargin: title.height
-                anchors.rightMargin: 0
+                anchors.topMargin: title.height + title.anchors.topMargin
+                anchors.rightMargin: 20
+                anchors.leftMargin: 20
+                anchors.bottomMargin: 20
 
                 ColumnLayout{
                     id: tarjeta
-                    width: tarjetaBg.width
                     Text {
                         text: "Elemento"
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -134,7 +140,6 @@ Window {
 
                 ColumnLayout{
                     id: tarjeta1
-                    width: tarjetaBg1.width
                     Text {
                         text: "Elemento"
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -156,7 +161,6 @@ Window {
 
                 ColumnLayout{
                     id: tarjeta2
-                    width: tarjetaBg2.width
                     Text {
                         text: "Elemento"
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -178,7 +182,6 @@ Window {
 
                 ColumnLayout{
                     id: tarjeta3
-                    width: tarjetaBg3.width
                     Text {
                         text: "Elemento"
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -200,7 +203,6 @@ Window {
 
                 ColumnLayout{
                     id: tarjeta4
-                    width: tarjetaBg4.width
                     Text {
                         text: "Elemento"
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -222,7 +224,6 @@ Window {
 
                 ColumnLayout{
                     id: tarjeta5
-                    width: tarjetaBg5.width
                     Text {
                         text: "Elemento"
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -244,7 +245,6 @@ Window {
 
                 ColumnLayout{
                     id: tarjeta6
-                    width: tarjetaBg6.width
                     Text {
                         text: "Elemento"
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -268,11 +268,12 @@ Window {
             RoundButton {
                 anchors.bottom: parent.bottom
                 anchors.right: parent.right
+                anchors.bottomMargin: 20
+                anchors.rightMargin: 20
                 text: "+"
             }
         }
 
-        // Vistas Edición, Usuarios y Configuración (simplificadas)
         Item {
             Text {
                 text: "Edición"

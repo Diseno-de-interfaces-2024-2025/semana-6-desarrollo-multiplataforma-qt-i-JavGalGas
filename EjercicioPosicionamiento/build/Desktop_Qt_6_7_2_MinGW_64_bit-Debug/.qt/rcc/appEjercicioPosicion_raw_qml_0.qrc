@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/qt/qml/EjercicioPosicion/">
-    <file alias="Main.qml">D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/Main.qml</file>
+    <file alias="Main.qml">D:/javgalgas/DI/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/EjercicioPosicionamiento/Main.qml</file>
   </qresource>
 </RCC>
 

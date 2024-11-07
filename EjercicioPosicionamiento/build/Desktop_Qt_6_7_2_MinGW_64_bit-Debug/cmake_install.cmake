@@ -1,4 +1,4 @@
-# Install script for directory: D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion
+# Install script for directory: D:/javgalgas/DI/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/EjercicioPosicionamiento
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appEjercicioPosicion.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/javgalgas/DI/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/EjercicioPosicionamiento/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appEjercicioPosicion.exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appEjercicioPosicion.exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appEjercicioPosicion.exe")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/javgalgas/DI/Pruebas/Pruebas_Qt/EjercicioPosicion/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/javgalgas/DI/semana-6-desarrollo-multiplataforma-qt-i-JavGalGas/EjercicioPosicionamiento/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
